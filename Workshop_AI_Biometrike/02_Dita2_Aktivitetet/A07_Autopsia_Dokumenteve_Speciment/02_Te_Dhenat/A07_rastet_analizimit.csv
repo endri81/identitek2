@@ -1,0 +1,13 @@
+case_id,doc_type,description,difficulty
+SPEC-01,Pasaporte Shqiptare,Speciment normal - te gjitha elementet OK,E lehte
+SPEC-02,Pasaporte Shqiptare,Shifra kontrolluese e numrit te dokumentit e gabuar,E mesme
+SPEC-03,Pasaporte Shqiptare,Data e lindjes ne VIZ nuk perputhet me MRZ,E mesme
+SPEC-04,Pasaporte Shqiptare,Hologrami nuk leviz me ndryshimin e kendit,E mesme
+SPEC-05,Pasaporte Shqiptare,Dokumenti i skaduar por MRZ tregon te vlefshem,E veshtire
+SPEC-06,Karte Identiteti,NID me gjatesi te gabuar (9 shifra ne vend te 10),E lehte
+SPEC-07,Karte Identiteti,"Foto me cilesi te dobet, potencialisht e zevendesuar",E veshtire
+SPEC-08,Pasaporte Shqiptare,Emri ne VIZ ndryshon nga MRZ (shkronje e munguar),E mesme
+SPEC-09,Pasaporte Shqiptare,Mikroprinting i turbullt nen zmadhim,E veshtire
+SPEC-10,Karte Identiteti,MRZ me karaktere te palejuara (shkronja te vogla),E lehte
+SPEC-11,Pasaporte Shqiptare,Data leshimit pas dates se skadences,E lehte
+SPEC-12,Pasaporte Shqiptare,Kod kombësie i pavlefshem ne MRZ,E mesme

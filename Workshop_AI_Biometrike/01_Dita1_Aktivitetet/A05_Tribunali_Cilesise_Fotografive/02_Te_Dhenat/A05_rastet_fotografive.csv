@@ -1,0 +1,42 @@
+case_id,applicant_ref,category_name,description
+FOTO-001,APL-3034,Probleme Fokusi/Cilesie,Artefakte kompresimi JPEG te dukshme
+FOTO-002,APL-6332,Probleme me Syzet,Syze te pozicionuara keq
+FOTO-003,APL-4280,Probleme Ndricimi,Ndricim jo i njëtrajtshëm - njolla drite
+FOTO-004,APL-6359,Probleme Fokusi/Cilesie,Zhurmë dixhitale e tepert
+FOTO-005,APL-8701,Probleme Ndricimi,Fytyra shume e erret - ndricim i pamjaftueshem
+FOTO-006,APL-2223,Probleme Shprehje,Buzeqeshje e gjere me dhembe te dukshem
+FOTO-007,APL-7992,Fotografi te Pranueshme,Fotografi standarde - te gjitha kriteret OK
+FOTO-008,APL-4381,Probleme Shprehje,Syte te mbyllur
+FOTO-009,APL-7748,Probleme Aksesoresh,Kufje te medha ne veshe
+FOTO-010,APL-6184,Fotografi te Pranueshme,"Fytyra ne qender, syte te hapura, pa aksesore"
+FOTO-011,APL-4295,Probleme me Syzet,Syze me xhama te ngjyrosur
+FOTO-012,APL-3276,Probleme Fokusi/Cilesie,Fotografi e skanuar me cilesi te dobet
+FOTO-013,APL-4507,Fotografi te Pranueshme,"Fokus i qarte, rezolucion i mjaftueshem"
+FOTO-014,APL-5345,Probleme Sfondi,Sfondi jo i bardhe/gri i lehte - ngjyre blu
+FOTO-015,APL-6802,Probleme Sfondi,Sfond jo uniform - gradient
+FOTO-016,APL-4573,Probleme Pozicioni,Fytyra shume afer - zmadhim i tepert
+FOTO-017,APL-9164,Probleme Sfondi,Sfond me teksture ose motive
+FOTO-018,APL-9709,Probleme Aksesoresh,Syze dielli - syte jo te dukshem
+FOTO-019,APL-6410,Probleme Pozicioni,Shikimi jo drejt kameres
+FOTO-020,APL-4483,Probleme Aksesoresh,Kapele/shami qe mbulon floket
+FOTO-021,APL-9735,Probleme Sfondi,Objekte te dukshme ne sfond
+FOTO-022,APL-7718,Probleme Ndricimi,Reflektim ne syzet
+FOTO-023,APL-9639,Probleme Pozicioni,Koka e perkulur/anuar
+FOTO-024,APL-7789,Fotografi te Pranueshme,"Ndricim i mire, sfond neutral, shprehje neutrale"
+FOTO-025,APL-6725,Probleme Aksesoresh,Shami fetare - OK nese fytyra e dukshme
+FOTO-026,APL-7394,Probleme me Syzet,Reflektim i drites ne xhamat
+FOTO-027,APL-1958,Probleme Aksesoresh,Syze me korniza te trasha qe mbulojne syte
+FOTO-028,APL-8676,Probleme Shprehje,Shprehje jo neutrale - i/e merztur
+FOTO-029,APL-6657,Probleme me Syzet,Hije e kornizes ne fytyren
+FOTO-030,APL-8633,Probleme Fokusi/Cilesie,Rezolucion shume i ulet - pixelizim
+FOTO-031,APL-7813,Probleme Pozicioni,Fytyra jo ne qender - e zhvendosur majtas
+FOTO-032,APL-5016,Probleme Sfondi,Hije e kokes ne sfond
+FOTO-033,APL-7825,Probleme Fokusi/Cilesie,Fotografi e turbullt - pa fokus
+FOTO-034,APL-3430,Probleme Shprehje,Vetemja e ngritur
+FOTO-035,APL-6420,Probleme me Syzet,Korniza e syzes mbulon syte
+FOTO-036,APL-9509,Probleme Shprehje,Goja e hapur
+FOTO-037,APL-3977,Probleme Ndricimi,Hije e forte ne nje ane te fytyrës
+FOTO-038,APL-7667,Fotografi te Pranueshme,Syze optike pa reflektim - OK
+FOTO-039,APL-5976,Probleme Ndricimi,Drite e tepert - fytyra e djegur/e bardhe
+FOTO-040,APL-6071,Probleme Pozicioni,Fytyra shume larg - zmadhim i pamjaftueshem
+FOTO-041,APL-9910,Probleme Pozicioni,"Vetem profili i dukshem, jo fytyra e plote"

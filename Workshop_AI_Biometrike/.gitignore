@@ -1,0 +1,24 @@
+# R specifike
+.Rhistory
+.Rdata
+.Ruserdata
+.RData
+
+# Skedarët output
+08_Outputet/*
+!08_Outputet/.gitkeep
+**/08_Outputet/*
+
+# Skedarët e përkohshëm
+*.tmp
+*~
+*.log
+
+# OS specifike
+.DS_Store
+Thumbs.db
+
+# Të dhëna sensitive
+**/sensitive/
+**/private/
+**/konfidenciale/

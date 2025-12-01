@@ -1,0 +1,21 @@
+id,mrz_line1,mrz_line2,ka_shkelje,tipi_shkeljes
+MRZ-001,P<ALBXHAFERI<<ARDIAN<<<<<<<<<<<<<<<<<<<<<<<<,A455973786ALB9705076M3112250<<<<<<<<<<<<<<08,JO,
+MRZ-002,P<ALBXHAFERI<<TEUTA<<<<<<<<<<<<<<<<<<<<<<<<<,A543238773ALB9106145F2805184<<<<<<<<<<<<<<02,JO,
+MRZ-003,P<ALBDERVISHI<<VJOLLCA<<<<<<<<<<<<<<<<<<<<<<,A652856847ALB8912271F2709075<<<<<<<<<<<<<<04,PO,GABIM: Shifra kontrolluese e dokumentit e pasakte
+MRZ-004,P<ALBSHEHU<<GENTIANA<<<<<<<<<<<<<<<<<<<<<<<<,A544027444ALB8608044F2706133<<<<<<<<<<<<<<02,JO,
+MRZ-005,P<ALBKELMENDI<<BESNIK<<<<<<<<<<<<<<<<<<<<<<<,A374463265ALB8707111M2807085<<<<<<<<<<<<<<04,PO,GABIM: Shifra kontrolluese e datelindje e pasakte
+MRZ-006,P<ALBDERVISHI<<VJOLLCA<<<<<<<<<<<<<<<<<<<<<<,A665122662ALB6105284F3010264<<<<<<<<<<<<<<02,JO,
+MRZ-007,P<ALBSHEHU<<GENTIANA<<<<<<<<<<<<<<<<<<<<<<<<,A372585983ALB9804083F3206054<<<<<<<<<<<<<<08,JO,
+MRZ-008,P<ALBOSMANI<<FATMIR<<<<<<<<<<<<<<<<<<<<<<<<<,A550302047ALB0003090M3110110<<<<<<<<<<<<<<00,PO,GABIM: Shifra kontrolluese e skadences e pasakte
+MRZ-009,P<ALBSHEHU<<ARDIAN<<<<<<<<<<<<<<<<<<<<<<<<<<,A333187014ALB6806075M2602279<<<<<<<<<<<<<<00,JO,
+MRZ-010,P<ALBLEKA<<BESA<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,A481501216ALB7506084F2604262<<<<<<<<<<<<<<02,JO,
+MRZ-011,P<ALBLEKA<<VJOLLCA<<<<<<<<<<<<<<<<<<<<<<<<<<,A369691448ALB9805161F3111149<<<<<<<<<<<<<<03,PO,GABIM: Shifra kontrolluese kompozite e pasakte
+MRZ-012,P<ALBHOXHA<<ELONA<<<<<<<<<<<<<<<<<<<<<<<<<<<,A764672082ALB7703193F2909048<<<<<<<<<<<<<<00,JO,
+MRZ-013,P<ALBKRASNIQI<<DRITA<<<<<<<<<<<<<<<<<<<<<<<<,A161216278ALB7109289F2001159<<<<<<<<<<<<<<00,PO,GABIM: Dokumenti i skaduar (2020-01-15)
+MRZ-014,P<ALBXHAFERI<<PETRIT<<<<<<<<<<<<<<<<<<<<<<<<,A268407537ALB0002048M2801175<<<<<<<<<<<<<<06,JO,
+MRZ-015,P<ALBOSMANI<<TEUTA<<<<<<<<<<<<<<<<<<<<<<<<<<,A321553010ALB3505159F2808196<<<<<<<<<<<<<<06,PO,GABIM: Datelindje ne te ardhmen (2035)
+MRZ-016,P<ALBBERISHA<<ANILA<<<<<<<<<<<<<<<<<<<<<<<<<,A851663780ALB9902266F2510044<<<<<<<<<<<<<<00,JO,
+MRZ-017,P<ALBXHAFERI<<PRANVERA<<<<<<<<<<<<<<<<<<<<<<,A182519783ALB8001047X2901064<<<<<<<<<<<<<<08,PO,GABIM: Kodi i gjinise i pavlefshem (X)
+MRZ-018,P<ALBOSMANI<<TEUTA<<<<<<<<<<<<<<<<<<<<<<<<<<,A718710767ALB9912072F2811073<<<<<<<<<<<<<<06,JO,
+MRZ-019,P<ALBKELMENDI<<MIMOZA<<<<<<<<<<<<<<<<<<<<<<<,A391629444XX<7712153F3212264<<<<<<<<<<<<<<06,PO,GABIM: Kodi i kombesise i pavlefshem (XX)
+MRZ-020,P<ALBLEKA<<KASTRIOT<<<<<<<<<<<<<<<<<<<<<<<<<,A518288404ALB8610234M2704069<<<<<<<<<<<<<<06,JO,

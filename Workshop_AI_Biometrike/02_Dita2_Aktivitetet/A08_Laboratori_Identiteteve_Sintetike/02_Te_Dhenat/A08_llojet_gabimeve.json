@@ -1,0 +1,116 @@
+{
+  "TYPO_NAME": {
+    "name": "Gabim Shkrimi ne Emer",
+    "description": "Shkronje e gabuar ose e munguar ne emer",
+    "severity": "LOW",
+    "examples": [
+      "Agorn (Agron)",
+      "Arbn (Arben)",
+      "Hoxah (Hoxha)"
+    ]
+  },
+  "DATE_FORMAT": {
+    "name": "Format i Gabuar Date",
+    "description": "Data ne format jokonsistent",
+    "severity": "MEDIUM",
+    "examples": [
+      "1987/03/15",
+      "15-03-87",
+      "March 15, 1987"
+    ]
+  },
+  "INVALID_DATE": {
+    "name": "Date e Pavlefshme",
+    "description": "Date qe nuk ekziston",
+    "severity": "HIGH",
+    "examples": [
+      "31/02/1990",
+      "29/02/2001",
+      "00/05/1985"
+    ]
+  },
+  "NID_LENGTH": {
+    "name": "NID me Gjatesi te Gabuar",
+    "description": "Numri i identitetit jo 10 shifra",
+    "severity": "HIGH",
+    "examples": [
+      "12345678 (8)",
+      "12345678901 (11)"
+    ]
+  },
+  "NID_FORMAT": {
+    "name": "NID me Format te Gabuar",
+    "description": "Shkronja ne vend te numrave",
+    "severity": "HIGH",
+    "examples": [
+      "I234567890",
+      "12345O7890"
+    ]
+  },
+  "PHONE_FORMAT": {
+    "name": "Telefon me Format te Gabuar",
+    "description": "Numri i telefonit jovalid",
+    "severity": "MEDIUM",
+    "examples": [
+      "+355 69 123 456 7",
+      "069-12-345",
+      "6912345678"
+    ]
+  },
+  "EMAIL_INVALID": {
+    "name": "Email i Pavlefshem",
+    "description": "Formati i emailit i gabuar",
+    "severity": "MEDIUM",
+    "examples": [
+      "emri@",
+      "emri.com",
+      "@domain.com"
+    ]
+  },
+  "AGE_MISMATCH": {
+    "name": "Mosperputhje Moshe-Date",
+    "description": "Mosha nuk perputhet me datelindjen",
+    "severity": "HIGH",
+    "examples": [
+      "Datelindja: 1990, Mosha: 45"
+    ]
+  },
+  "FUTURE_DATE": {
+    "name": "Date ne te Ardhmen",
+    "description": "Datelindja ose leshimi ne te ardhmen",
+    "severity": "CRITICAL",
+    "examples": [
+      "Datelindja: 2026-05-15"
+    ]
+  },
+  "GENDER_NAME": {
+    "name": "Mosperputhje Gjini-Emer",
+    "description": "Emri nuk perputhet me gjinine",
+    "severity": "MEDIUM",
+    "examples": [
+      "Emri: Agron, Gjinia: F"
+    ]
+  },
+  "MRZ_CHECKSUM": {
+    "name": "Shifra Kontrolluese Gabim",
+    "description": "Shifra kontrolluese MRZ e gabuar",
+    "severity": "CRITICAL",
+    "examples": [
+      "Shifra = 5, duhet = 7"
+    ]
+  },
+  "DUPLICATE_NID": {
+    "name": "NID i Dyfishte",
+    "description": "I njejti NID per dy persona",
+    "severity": "CRITICAL",
+    "examples": [
+      "Personi A dhe B kane te njejtin NID"
+    ]
+  },
+  "NONE": {
+    "name": "Pa Gabim",
+    "description": "Rekord i sakte",
+    "severity": "NONE",
+    "examples": []
+  }
+}

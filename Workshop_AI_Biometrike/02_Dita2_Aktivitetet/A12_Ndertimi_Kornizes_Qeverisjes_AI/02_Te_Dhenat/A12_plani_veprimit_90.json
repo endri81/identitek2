@@ -1,0 +1,158 @@
+[
+  {
+    "phase": "JAVA 1-2",
+    "name": "Vleresimi Fillestar",
+    "activities": [
+      {
+        "task": "Inventarizoni te gjithe sistemet AI ne perdorim",
+        "owner": "IT Manager",
+        "priority": "KRITIK"
+      },
+      {
+        "task": "Klasifikoni sistemet sipas nivelit te rrezikut",
+        "owner": "Risk Officer",
+        "priority": "KRITIK"
+      },
+      {
+        "task": "Identifikoni boshlliqet kryesore te dokumentimit",
+        "owner": "Quality Manager",
+        "priority": "I LARTE"
+      },
+      {
+        "task": "Formoni ekipin e qeverisjes se AI",
+        "owner": "Drejtori",
+        "priority": "KRITIK"
+      }
+    ]
+  },
+  {
+    "phase": "JAVA 3-4",
+    "name": "Dokumentimi Themelor",
+    "activities": [
+      {
+        "task": "Hartoni Vizionin dhe Parimet e AI",
+        "owner": "Drejtoria",
+        "priority": "I LARTE"
+      },
+      {
+        "task": "Krijoni Regjistrin e Rreziqeve",
+        "owner": "Risk Officer",
+        "priority": "KRITIK"
+      },
+      {
+        "task": "Dokumentoni sistemet High-Risk (fillimi)",
+        "owner": "IT Team",
+        "priority": "KRITIK"
+      },
+      {
+        "task": "Percaktoni KPI-te fillestare",
+        "owner": "Quality Manager",
+        "priority": "I LARTE"
+      }
+    ]
+  },
+  {
+    "phase": "JAVA 5-6",
+    "name": "Politikat Baze",
+    "activities": [
+      {
+        "task": "Hartoni Politiken e Perdorimit te AI",
+        "owner": "Policy Team",
+        "priority": "KRITIK"
+      },
+      {
+        "task": "Krijoni procedurat e mbikqyrjes njerezore",
+        "owner": "Operations",
+        "priority": "I LARTE"
+      },
+      {
+        "task": "Vendosni sistemin e logging",
+        "owner": "IT Team",
+        "priority": "KRITIK"
+      },
+      {
+        "task": "Percaktoni procedurat e incidenteve",
+        "owner": "Security Team",
+        "priority": "I LARTE"
+      }
+    ]
+  },
+  {
+    "phase": "JAVA 7-8",
+    "name": "Trajnimi dhe Testimi",
+    "activities": [
+      {
+        "task": "Trajnoni stafin per politikat e reja",
+        "owner": "HR/Training",
+        "priority": "I LARTE"
+      },
+      {
+        "task": "Testoni procedurat e incidenteve (simulim)",
+        "owner": "Security Team",
+        "priority": "MESATAR"
+      },
+      {
+        "task": "Kryeni auditin e pare te bias",
+        "owner": "Quality Team",
+        "priority": "I LARTE"
+      },
+      {
+        "task": "Validoni dokumentimin teknik",
+        "owner": "IT Team",
+        "priority": "KRITIK"
+      }
+    ]
+  },
+  {
+    "phase": "JAVA 9-10",
+    "name": "Monitorimi dhe Permiresimi",
+    "activities": [
+      {
+        "task": "Aktivizoni dashboard-in e monitorimit",
+        "owner": "IT Team",
+        "priority": "I LARTE"
+      },
+      {
+        "task": "Filloni raportimet periodike",
+        "owner": "Quality Manager",
+        "priority": "MESATAR"
+      },
+      {
+        "task": "Rishikoni dhe permiresoni politikat",
+        "owner": "Policy Team",
+        "priority": "MESATAR"
+      },
+      {
+        "task": "Dokumentoni mesimet e nxena",
+        "owner": "All Teams",
+        "priority": "MESATAR"
+      }
+    ]
+  },
+  {
+    "phase": "JAVA 11-12",
+    "name": "Konsolidimi",
+    "activities": [
+      {
+        "task": "Auditoni perputhshmerine (te brendshem)",
+        "owner": "Internal Audit",
+        "priority": "KRITIK"
+      },
+      {
+        "task": "Pergatitni raportin per drejtuesit",
+        "owner": "AI Governance Lead",
+        "priority": "I LARTE"
+      },
+      {
+        "task": "Planifikoni fazat e ardhshme",
+        "owner": "Drejtoria",
+        "priority": "I LARTE"
+      },
+      {
+        "task": "Festoni sukseset dhe njihni kontributet",
+        "owner": "HR",
+        "priority": "MESATAR"
+      }
+    ]
+  }
+]

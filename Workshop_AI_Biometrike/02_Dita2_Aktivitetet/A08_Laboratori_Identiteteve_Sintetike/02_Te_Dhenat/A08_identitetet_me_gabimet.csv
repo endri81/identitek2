@@ -1,0 +1,51 @@
+id,first_name,last_name,gender,birthdate_display,birthplace,nid,phone,email,error_type,error_details
+SYN-001,Erjon,Malaj,M,17/12/1964,Gjirokastër,0247773365,+355680058686,emalaj@outlook.com,NONE,
+SYN-002,Besnik,Qerimi,M,28/05/2000,Burrel,2186598344,+355687949296,besnikqerimi@outlook.com,AGE_MISMATCH,"Mosha e deklaruar: 15, aktuale: 25"
+SYN-003,Gentiana,Hoxha,F,13/01/1975,Pogradec,1230973307,691326605,gentianahoxha@yahoo.com,PHONE_FORMAT,Tel: 691326605
+SYN-004,Besa,Mema,F,07/10/2026,Kavajë,6924690206,+355695545214,besa_mema@hotmail.com,FUTURE_DATE,Datelindja: 07/10/2026 (ne te ardhmen)
+SYN-005,Erjon,Leka,M,29/02/2001,Pogradec,3221992073,+355661265801,erjon.leka@gmail.com,INVALID_DATE,Date: 29/02/2001
+SYN-006,Arben,Lleshi,M,09/02/1979,Laç,6406707235,+355669060253,arbenlleshi@yahoo.com,NONE,
+SYN-007,Fatjona,Xhafa,F,20/12/2004,Shkodër,9650494984,+355694829623,fatjonaxhafa@outlook.com,NONE,
+SYN-008,Petit,Hoxha,M,13/11/1997,Elbasan,9287384729,+355699235398,petrit_hoxha@hotmail.com,TYPO_NAME,Emri: Petrit -> Petit
+SYN-009,Edlira,Hoxha,F,11/11/1984,Elbasan,8756042862,+355690797108,edlira.hoxha@gmail.com,NONE,
+SYN-010,Flutura,Duka,F,24/09/1982,Lezhë,8779664531,+355686425770,fduka@outlook.com,NONE,
+SYN-011,Elton,Hysa,M,02/11/1959,Vlorë,8105808847,+355696680148,elton.hysa@outlook.com,NONE,
+SYN-012,Kozeta,Shkreli,F,24/02/1990,Librazhd,97864598334,+355694382402,kshkreli@hotmail.com,NID_LENGTH,NID: 97864598334 (11 shifra)
+SYN-013,Fatmir,Qerimi,M,01-03-00,Durrës,0065456134,+355670164579,fatmir.qerimi@yahoo.com,DATE_FORMAT,Format: 01-03-00
+SYN-014,Shqiponja,Rama,F,04/11/1995,Durrës,9002314497,+355695311376,srama@outlook.com,NONE,
+SYN-015,Artan,Zeqiri,M,13/10/2004,Sarandë,9271757417,+355698671615,artan.zeqiri@yahoo.com,NONE,
+SYN-016,Valon,Rama,M,07/04/2005,Burrel,6507473328,+355682532670,valonrama@yahoo.com,NONE,
+SYN-017,Petrit,Tafa,M,28/10/1955,Tiranë,6805801572,+3556992 47778,petrittafa@gmail.com,PHONE_FORMAT,Tel: +3556992 47778
+SYN-018,Pranvera,Hoxha,F,04/05/1962,Pogradec,1063319514,+355665784150,pranverahoxha.com,EMAIL_INVALID,Email: pranverahoxha.com
+SYN-019,Rezart,Islami,M,03/08/1978,Kavajë,7915787076,+355693171434,rezartislami@outlook.com,MRZ_CHECKSUM,"Shifra: 7, duhet: 3"
+SYN-020,Valon,Ymeri,M,32/12/1988,Gramsh,5148900158,+355691256090,valon.ymeri@hotmail.com,INVALID_DATE,Date: 32/12/1988
+SYN-021,Ermira,Tafa,F,02-02-95,Krujë,6655527578,+355684083950,etafa@outlook.com,DATE_FORMAT,Format: 02-02-95
+SYN-022,Bea,Marku,F,10/04/1981,Pogradec,8720296704,+355677052232,besamarku@outlook.com,TYPO_NAME,Emri: Besa -> Bea
+SYN-023,Nertila,Islami,F,18/05/1971,Sarandë,07434352,+355680916294,nertila_islami@outlook.com,NID_LENGTH,NID: 07434352 (8 shifra)
+SYN-024,Ilir,Hoxha,M,12/04/1986,Peshkopi,4282665497,+355672772562,ilir.hoxha@,EMAIL_INVALID,Email: ilir.hoxha@
+SYN-025,Gentiana,Kola,F,13/06/1989,Vlorë,2797617625,685503580,gentiana.kola@yahoo.com,PHONE_FORMAT,Tel: 685503580
+SYN-026,Fatmir,Leka,M,15/08/1969,Sarandë,8748785955,+3556770 93596,fleka@outlook.com,PHONE_FORMAT,Tel: +3556770 93596
+SYN-027,Valdete,Kelmendi,F,1989/07/24,Tiranë,8934755795,+355694871210,valdetekelmendi@gmail.com,DATE_FORMAT,Format: 1989/07/24
+SYN-028,Klvis,Ahmeti,M,06/07/1982,Lezhë,7575374230,+355660036392,klevis_ahmeti@gmail.com,TYPO_NAME,Emri: Klevis -> Klvis
+SYN-029,Luan,Ndreu,F,06/01/1989,Krujë,5058712142,+355660777944,luan_ndreu@outlook.com,GENDER_NAME,"Emri: Luan, Gjinia: F"
+SYN-030,Geti,Leka,M,21/06/2004,Korçë,2893825668,+355687782191,gentileka@hotmail.com,TYPO_NAME,Emri: Genti -> Geti
+SYN-031,Iliriana,Murati,F,12/09/1961,Laç,02977946911,+355660453771,iliriana_murati@yahoo.com,NID_LENGTH,NID: 02977946911 (11 shifra)
+SYN-032,Erjon,Rama,M,32/12/1988,Fier,0822719536,+355687187790,erjon_rama@yahoo.com,INVALID_DATE,Date: 32/12/1988
+SYN-033,Flamur,Topalli,M,11/02/1966,Korçë,7663163415,+355679768674,flamurtopalli@gmail.com,NONE,
+SYN-034,Shkelzen,Duka,M,02/05/1977,Librazhd,52661717142,+355662058374,shkelzen.duka@gmail.com,NID_LENGTH,NID: 52661717142 (11 shifra)
+SYN-035,Flutura,Dervishi,F,27/05/2006,Burrel,46L5913113,+355664116240,fluturadervishi@outlook.com,NID_FORMAT,NID: 46L5913113 (shkronje ne pozicion 3)
+SYN-036,Qendresa,Osmani,F,15/09/2007,Laç,2828603126,+355679228791,qendresa_osmani@hotmail.com,NONE,
+SYN-037,Sokol,Gjika,M,05/02/2003,Librazhd,896091S306,+355680633556,sokol.gjika@hotmail.com,NID_FORMAT,NID: 896091S306 (shkronje ne pozicion 7)
+SYN-038,Qemal,Hysa,M,24/01/1986,Berat,6883519124,+355678743473,qemalhysa.com,EMAIL_INVALID,Email: qemalhysa.com
+SYN-039,Ermira,Hoxha,F,02-06-98,Gramsh,7245357247,+355664073805,ermirahoxha@gmail.com,DATE_FORMAT,Format: 02-06-98
+SYN-040,Valdete,Hysa,F,08/10/1998,Peshkopi,8059499178,+355696671066,vhysa@yahoo.com,NONE,
+SYN-041,Vjollca,Zeqiri,F,04/06/1970,Pogradec,8233749650,+355696707158,vjollca_zeqiri@gmail.com,MRZ_CHECKSUM,"Shifra: 3, duhet: 9"
+SYN-042,Xhevahir,Shehu,M,26/01/1992,Tepelenë,1348842310,+355681480354,xshehu@hotmail.com,NONE,
+SYN-043,Klea,Kelmendi,M,11/09/1979,Kuçovë,6142483438,+355685300813,klea.kelmendi@yahoo.com,GENDER_NAME,"Emri: Klea, Gjinia: M"
+SYN-044,Fatjona,Ahmeti,F,13/10/1986,Shkodër,411529600I,+355698739445,fatjonaahmeti@yahoo.com,NID_FORMAT,NID: 411529600I (shkronje ne pozicion 10)
+SYN-045,Manjola,Murati,F,15/01/1967,Peshkopi,6523437799,+355699555257,mmurati@outlook.com,AGE_MISMATCH,"Mosha e deklaruar: 48, aktuale: 58"
+SYN-046,Qendresa,Basha,F,19/09/2027,Berat,6144783592,+355694889269,qendresabasha@yahoo.com,FUTURE_DATE,Datelindja: 19/09/2027 (ne te ardhmen)
+SYN-047,Visar,Islami,M,28/01/1988,Librazhd,3840930256,+355677947008,visarislami@outlook.com,NONE,
+SYN-048,Naim,Zogu,F,08/06/1986,Korçë,2494438685,+355692772651,naim_zogu@outlook.com,GENDER_NAME,"Emri: Naim, Gjinia: F"
+SYN-049,Anila,Malaj,F,22/07/1956,Vlorë,9218136357,+355686649741,anila_malaj@hotmail.com,AGE_MISMATCH,"Mosha e deklaruar: 84, aktuale: 69"
+SYN-050,Gezime,Prifti,F,28/12/1976,Sarandë,0247773365,+355680541326,gezime.prifti@yahoo.com,DUPLICATE_NID,NID i njejte me SYN-001

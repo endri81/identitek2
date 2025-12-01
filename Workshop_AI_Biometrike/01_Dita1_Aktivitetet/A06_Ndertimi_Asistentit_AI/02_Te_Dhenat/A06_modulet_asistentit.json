@@ -1,0 +1,136 @@
+{
+  "VALIDIM": {
+    "name": "Moduli i Validimit",
+    "description": "Kontrollon saktesine e te dhenave sipas rregullave",
+    "use_cases": [
+      {
+        "id": "VAL-01",
+        "task": "Validimi i MRZ",
+        "input": "Linjat MRZ te pasaportes",
+        "output": "VALID/INVALID + lista e gabimeve",
+        "prompt_template": "Je validues MRZ sipas ICAO 9303. Kontrollo:\n1. Gjatesia e linjes (44 karaktere per TD3)\n2. Shifrat kontrolluese (algoritmi mod 10)\n3. Kodet e vendeve (ISO 3166-1 alpha-3)\n4. Formati i datave (YYMMDD)\nJep: STATUS + GABIMET + REFERENCA ICAO"
+      },
+      {
+        "id": "VAL-02",
+        "task": "Validimi i NID Shqiptar",
+        "input": "Numri i identitetit (10 shifra)",
+        "output": "VALID/INVALID + arsyeja",
+        "prompt_template": "Je validues i NID shqiptar. Kontrollo:\n1. Gjatesia: saktesisht 10 shifra\n2. Formati: vetem numra\n3. Shifra kontrolluese (nese aplikohet)\nJep: STATUS (VALID/INVALID) + ARSYEJA"
+      },
+      {
+        "id": "VAL-03",
+        "task": "Validimi i Dates",
+        "input": "Date ne cfaredo formati",
+        "output": "Date ISO 8601 + statusi",
+        "prompt_template": "Je konvertues datash. Konverto ne ISO 8601:\n- Formate te pranuara: DD/MM/YYYY, DD.MM.YYYY, YYYY-MM-DD\n- Vitet 2-shifror: 00-30=20XX, 31-99=19XX\n- Kontrollo validitetin (jo 31 shkurt, etj)\nJep: DATA_ISO | STATUS | GABIMI (nese ka)"
+      }
+    ]
+  },
+  "STANDARDIZIM": {
+    "name": "Moduli i Standardizimit",
+    "description": "Konverton te dhenat ne formate standarde",
+    "use_cases": [
+      {
+        "id": "STD-01",
+        "task": "Standardizimi i Emrave",
+        "input": "Emra ne formate te ndryshme",
+        "output": "Emra ne Title Case",
+        "prompt_template": "Je standardizues emrash. Konverto ne Title Case:\n- Shkronja e pare e madhe per cdo fjale\n- Trajto: CAPS LOCK, lowercase, MiXeD\n- Ruaj apostrofet dhe vizat (O'Brien, Jean-Pierre)\nJep vetem emrin e standardizuar, pa komente."
+      },
+      {
+        "id": "STD-02",
+        "task": "Standardizimi i Telefonave",
+        "input": "Numra telefoni ne formate te ndryshme",
+        "output": "Format E.164 (+355XXXXXXXXX)",
+        "prompt_template": "Je standardizues telefonash per Shqiperi. Konverto ne E.164:\n- Prefiks: +355\n- Hiq: hapesirat, vizat, kllapat\n- Zëvendëso: 0XX me +355XX, 00355 me +355\n- Celulare: 66, 67, 68, 69\nJep: NUMRI_E164 | STATUS (VALID/INVALID)"
+      },
+      {
+        "id": "STD-03",
+        "task": "Standardizimi i Adresave",
+        "input": "Adresa ne formate te ndryshme",
+        "output": "Adrese e strukturuar",
+        "prompt_template": "Je standardizues adresash shqiptare. Strukturo:\n- Rruga (Rr., Rruga, Bulevardi -> Rr./Blv.)\n- Numri\n- Apartamenti (nese ka)\n- Kodi Postar\n- Qyteti\nJep si JSON: {rruga, numri, apt, kp, qyteti}"
+      }
+    ]
+  },
+  "EKSTRAKTIM": {
+    "name": "Moduli i Ekstraktimit",
+    "description": "Nxjerr te dhena te strukturuara nga tekst",
+    "use_cases": [
+      {
+        "id": "EKS-01",
+        "task": "Ekstraktimi nga Certifikate Lindje",
+        "input": "Tekst i certifikates se lindjes",
+        "output": "JSON me te dhenat kryesore",
+        "prompt_template": "Je ekstraktues te dhenash nga certifikata lindje. Nxirr:\n- emri_plote\n- datelindja (ISO 8601)\n- vendlindja\n- gjinia\n- emri_prinderve (baba, nena)\n- nr_akti\nJep si JSON. Nese mungon, vendos null."
+      },
+      {
+        "id": "EKS-02",
+        "task": "Ekstraktimi nga Aplikim",
+        "input": "Tekst i formularit te aplikimit",
+        "output": "Te dhena te strukturuara",
+        "prompt_template": "Je ekstraktues formularesh. Identifiko dhe nxirr:\n- te_dhenat_personale: emri, datelindja, gjinia, kombesia\n- kontakti: adresa, telefoni, email\n- dokumenti_kerkuar: lloji, arsyeja\nJep si JSON i strukturuar."
+      }
+    ]
+  },
+  "KLASIFIKIM": {
+    "name": "Moduli i Klasifikimit",
+    "description": "Kategorizon dokumente dhe kerkesa",
+    "use_cases": [
+      {
+        "id": "KLA-01",
+        "task": "Klasifikimi i Dokumenteve",
+        "input": "Pershkrim ose permbajtje dokumenti",
+        "output": "Kategoria + besueshmeria",
+        "prompt_template": "Je klasifikues dokumentesh. Kategorite:\nPASAPORTE, KARTE_ID, CERTIFIKATE_LINDJE, CERTIFIKATE_MARTESE,\nCERTIFIKATE_VDEKJE, LEJE_DREJTIMI, DIPLOME, TJETER\n\nAnalizo tekstin dhe jep:\nKATEGORIA | BESUESHMERIA (HIGH/MEDIUM/LOW) | ARSYEJA"
+      },
+      {
+        "id": "KLA-02",
+        "task": "Klasifikimi i Kerkesave",
+        "input": "Teksti i kerkeses se qytetarit",
+        "output": "Lloji + prioriteti + departamenti",
+        "prompt_template": "Je klasifikues kerkesash. Per cdo kerkese percakto:\n- LLOJI: Aplikim_Ri, Rinovim, Korrigjim, Ankese, Informacion\n- PRIORITETI: I_LARTE, NORMAL, I_ULET\n- DEPARTAMENTI: Gjendja_Civile, Pasaportat, Patenta, Tjeter\nJep si tabele: LLOJI | PRIORITETI | DEPARTAMENTI | ARSYEJA"
+      }
+    ]
+  },
+  "KONTROLL": {
+    "name": "Moduli i Kontrollit te Cilësisë",
+    "description": "Zbulon gabime dhe anomali",
+    "use_cases": [
+      {
+        "id": "KON-01",
+        "task": "Kontrolli i Plotesise",
+        "input": "Te dhenat e aplikimit",
+        "output": "Lista e fushave qe mungojne",
+        "prompt_template": "Je kontrollues plotesise. Per aplikim pasaporte kontrollo:\nFUSHAT E DETYRUESHME:\n- Emri, Mbiemri, Datelindja, Vendlindja\n- Gjinia, Kombesia, NID\n- Adresa, Telefoni\n- Foto (po/jo)\n\nJep: FUSHAT_MUNGOJNE | STATUSI (I_PLOTE/JO_I_PLOTE)"
+      },
+      {
+        "id": "KON-02",
+        "task": "Zbulimi i Anomalive",
+        "input": "Te dhena per kontroll",
+        "output": "Lista e anomalive me seriozitetin",
+        "prompt_template": "Je zbulues anomalish. Kontrollo per:\n- Data ne te ardhmen\n- Moshe jo-reale (negativ ose >120)\n- Mosperputhje datelindje-moshe\n- Formate te gabuara (email, telefon)\n- Vlera bosh ne fusha kritike\n\nJep per cdo anomali: FUSHA | VLERA | PROBLEMI | SERIOZITETI"
+      }
+    ]
+  },
+  "RAPORTIM": {
+    "name": "Moduli i Raportimit",
+    "description": "Gjeneron raporte dhe permbledhje",
+    "use_cases": [
+      {
+        "id": "RAP-01",
+        "task": "Raporti Ditor",
+        "input": "Statistika ditore",
+        "output": "Raport i formatuar",
+        "prompt_template": "Je gjenerues raportesh. Krijo raport ditor me:\n1. PERMBLEDHJE EKZEKUTIVE (2-3 fjali)\n2. STATISTIKAT KRYESORE (tabele)\n   - Aplikime te marra\n   - Aprovuara / Refuzuara / Ne pritje\n3. SHQETESIMET (nese ka vonesa ose probleme)\n4. REKOMANDIMET (2-3 pika)\n\nFormato profesionalisht per drejtuesit."
+      },
+      {
+        "id": "RAP-02",
+        "task": "Permbledhja e Rastit",
+        "input": "Historiku i aplikimit",
+        "output": "Permbledhje koncize",
+        "prompt_template": "Je permbledhes rastesh. Per cdo aplikim krijo:\n- ID dhe data e aplikimit\n- Aplikuesi (emri, lloji dokumenti)\n- Statusi aktual\n- Veprimet e marra (kronologjikisht)\n- Hapat e ardhshem\n\nGjatesia: max 150 fjale."
+      }
+    ]
+  }
+}

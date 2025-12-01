@@ -1,0 +1,185 @@
+[
+  {
+    "id": "BREACH-01",
+    "title": "Sulm Ransomware ne Serverin e Pasaportave",
+    "severity": "KRITIK",
+    "category": "Malware/Ransomware",
+    "description": "\nOra 09:15 - Sistemi i lëshimit të pasaportave nuk përgjigjet.\nOra 09:22 - Ekrani tregon mesazh: \"Të dhënat tuaja janë enkriptuar. Paguani 50 BTC.\"\nOra 09:30 - IT konfirmon: 3 serverë janë të infektuar.\nOra 09:45 - Zbulohet: 150,000 rekorde pasaportash potencialisht të ekspozuara.\n        ",
+    "affected_systems": [
+      "Serveri i pasaportave",
+      "Databaza e aplikimeve",
+      "Backup lokal"
+    ],
+    "data_at_risk": [
+      "Emra dhe mbiemra",
+      "Foto biometrike",
+      "Numra pasaportash",
+      "Data lindje",
+      "Adresa"
+    ],
+    "estimated_records": 150000,
+    "immediate_actions": [
+      "Izoloni serverët e infektuar nga rrjeti",
+      "Aktivizoni ekipin e reagimit ndaj incidenteve",
+      "Njoftoni AKCESK brenda 72 orëve",
+      "Mos paguani kurrë ransomware",
+      "Kontrolloni backup-et offline"
+    ],
+    "ai_assistance": [
+      "Analizoni log-et për pikën e hyrjes",
+      "Identifikoni rekordët e prekura",
+      "Gjeneroni raport për autoritetet",
+      "Hartoni komunikimin për publikun"
+    ],
+    "timeline_hours": 72,
+    "regulatory_requirements": [
+      "GDPR Neni 33",
+      "Ligji për Mbrojtjen e të Dhënave Personale"
+    ]
+  },
+  {
+    "id": "BREACH-02",
+    "title": "Akses i Paautorizuar nga Punonjës",
+    "severity": "I LARTË",
+    "category": "Kërcënim i Brendshëm",
+    "description": "\nOra 14:00 - Auditi zbulon: Një punonjës ka aksesuar 5,000 rekorde pa autorizim.\nOra 14:30 - Log-et tregojnë eksport të të dhënave në USB.\nOra 15:00 - Punonjësi nuk gjendet në zyrë.\nOra 15:30 - Kamerat konfirmojnë daljen e tij me laptop personal.\n        ",
+    "affected_systems": [
+      "Sistemi i Gjendjes Civile",
+      "Terminali i punonjësit"
+    ],
+    "data_at_risk": [
+      "NID",
+      "Certifikata lindje",
+      "Adresa",
+      "Lidhje familjare"
+    ],
+    "estimated_records": 5000,
+    "immediate_actions": [
+      "Çaktivizoni menjëherë kredencialet e punonjësit",
+      "Njoftoni sigurinë dhe policinë",
+      "Ruani të gjitha log-et dhe provat",
+      "Identifikoni të gjitha rekordët e aksesuar",
+      "Kontaktoni punonjësin përmes avokatit"
+    ],
+    "ai_assistance": [
+      "Analizoni pattern-in e aksesit të pazakontë",
+      "Listoni të gjithë individët e prekur",
+      "Vlerësoni riskun për secilin rekord",
+      "Gjeneroni raport kronologjik"
+    ],
+    "timeline_hours": 24,
+    "regulatory_requirements": [
+      "GDPR Neni 33-34",
+      "Kodi Penal - Vjedhja e të Dhënave"
+    ]
+  },
+  {
+    "id": "BREACH-03",
+    "title": "Rrjedhje nga Backup i Pakonfiguruar",
+    "severity": "I LARTË",
+    "category": "Konfigurim i Gabuar",
+    "description": "\nOra 10:00 - Kërkues sigurie raporton: Backup i databazës i aksesueshëm publikisht.\nOra 10:15 - Konfirmojmë: S3 bucket pa autentikim për 14 ditë.\nOra 10:30 - Analizojmë log-et: 23 IP të ndryshme kanë shkarkuar të dhëna.\nOra 11:00 - Madhësia e backup: 2.3 GB me 80,000 rekorde.\n        ",
+    "affected_systems": [
+      "AWS S3 Bucket",
+      "Sistemi i backup"
+    ],
+    "data_at_risk": [
+      "Të dhëna pasaportash",
+      "Foto",
+      "Historik aplikimesh",
+      "Shënime interne"
+    ],
+    "estimated_records": 80000,
+    "immediate_actions": [
+      "Mbyllni menjëherë aksesin publik",
+      "Identifikoni të gjitha IP-të që aksesuan",
+      "Skanoni për kopje të tjera të ekspozuara",
+      "Rishikoni të gjitha konfigurimet cloud",
+      "Njoftoni autoritetet rregullatore"
+    ],
+    "ai_assistance": [
+      "Analizoni log-et e aksesit për pattern",
+      "Klasifikoni IP-të (kërkues vs keqdashës)",
+      "Vlerësoni çfarë të dhënash u shkarkuan",
+      "Gjeneroni listën e njoftimeve për qytetarët"
+    ],
+    "timeline_hours": 48,
+    "regulatory_requirements": [
+      "GDPR Neni 33",
+      "Rregullorja e Sigurisë Cloud"
+    ]
+  },
+  {
+    "id": "BREACH-04",
+    "title": "Sulm Phishing ndaj Administratorëve",
+    "severity": "KRITIK",
+    "category": "Inxhinieri Sociale",
+    "description": "\nOra 08:00 - Admin merr email \"urgjent\" nga \"Drejtori IT\".\nOra 08:05 - Admin klikon linkun dhe fut kredencialet.\nOra 08:10 - Sulmuesi fiton akses admin në sistemin e ID-ve.\nOra 11:00 - Zbulohet: 3 orë akses i pakontrolluar në sistem.\nOra 11:30 - Konfirmojmë: 25,000 rekorde të shikuara, 500 të eksportuara.\n        ",
+    "affected_systems": [
+      "Sistemi i Kartave të Identitetit",
+      "Active Directory",
+      "Email server"
+    ],
+    "data_at_risk": [
+      "Foto ID",
+      "NID",
+      "Adresa",
+      "Nënshkrime dixhitale"
+    ],
+    "estimated_records": 25000,
+    "immediate_actions": [
+      "Rivendosni fjalëkalimin e admin dhe të gjithë adminëve",
+      "Revokoni të gjitha sesionet aktive",
+      "Aktivizoni 2FA për të gjithë adminët",
+      "Bllokoni IP-të e sulmuesit",
+      "Skanoni për malware të instaluar"
+    ],
+    "ai_assistance": [
+      "Analizoni emailin phishing për IoC",
+      "Identifikoni veprimet e sulmuesit në log",
+      "Listoni rekordët e aksesuar/eksportuar",
+      "Hartoni trajnim anti-phishing"
+    ],
+    "timeline_hours": 24,
+    "regulatory_requirements": [
+      "GDPR Neni 32-34",
+      "Politika e Sigurisë Kibernetike"
+    ]
+  },
+  {
+    "id": "BREACH-05",
+    "title": "Humbja e Laptopit me të Dhëna",
+    "severity": "MESATAR",
+    "category": "Humbje Fizike",
+    "description": "\nOra 18:00 - Punonjësi raporton: Laptopi u vodh nga makina.\nOra 18:30 - Konfirmojmë: Laptopi kishte kopje lokale të 2,000 aplikimeve.\nOra 19:00 - IT kontrollon: Disku NUK ishte i enkriptuar.\nOra 19:30 - Aplikime përmbajnë: foto, NID, certifikata, adresa.\n        ",
+    "affected_systems": [
+      "Laptop punonjësi",
+      "Kopja lokale e databazës"
+    ],
+    "data_at_risk": [
+      "Aplikime pasaportash",
+      "Foto",
+      "Dokumente mbështetëse",
+      "Korrespondencë"
+    ],
+    "estimated_records": 2000,
+    "immediate_actions": [
+      "Raportoni në polici menjëherë",
+      "Aktivizoni gjurmimin e laptopit (nëse ka)",
+      "Revokoni aksesin VPN të laptopit",
+      "Çaktivizoni certifikatat dixhitale",
+      "Njoftoni qytetarët e prekur"
+    ],
+    "ai_assistance": [
+      "Identifikoni aplikantët e prekur nga backup",
+      "Gjeneroni letra njoftimi personalizuara",
+      "Vlerësoni riskun për secilin individ",
+      "Hartoni politikë të re për enkriptim"
+    ],
+    "timeline_hours": 72,
+    "regulatory_requirements": [
+      "GDPR Neni 33-34",
+      "Politika e Pajisjeve Mobile"
+    ]
+  }
+]

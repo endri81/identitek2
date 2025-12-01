@@ -1,0 +1,6 @@
+id,title,severity,category,estimated_records,timeline_hours
+BREACH-01,Sulm Ransomware ne Serverin e Pasaportave,KRITIK,Malware/Ransomware,150000,72
+BREACH-02,Akses i Paautorizuar nga Punonjës,I LARTË,Kërcënim i Brendshëm,5000,24
+BREACH-03,Rrjedhje nga Backup i Pakonfiguruar,I LARTË,Konfigurim i Gabuar,80000,48
+BREACH-04,Sulm Phishing ndaj Administratorëve,KRITIK,Inxhinieri Sociale,25000,24
+BREACH-05,Humbja e Laptopit me të Dhëna,MESATAR,Humbje Fizike,2000,72

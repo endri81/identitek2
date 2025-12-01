@@ -1,0 +1,65 @@
+[
+  {
+    "level": 1,
+    "name": "RREZIK I PAPRANUESHËM",
+    "name_en": "Unacceptable Risk",
+    "color": "#8B0000",
+    "description": "Sisteme AI qe jane te ndaluara plotesisht",
+    "examples": [
+      "Scoring social nga qeverite",
+      "Manipulimi subliminal i sjelljes",
+      "Shfrytëzimi i vulnerabiliteteve",
+      "Identifikimi biometrik real-time ne hapesira publike (me perjashtim)"
+    ],
+    "action": "E NDALUAR",
+    "penalty": "Deri 35M EUR ose 7% e xhiros globale"
+  },
+  {
+    "level": 2,
+    "name": "RREZIK I LARTË",
+    "name_en": "High Risk",
+    "color": "#CC0000",
+    "description": "Sisteme AI qe kerkojne perputhshmeri te plote",
+    "examples": [
+      "Identifikimi biometrik",
+      "Infrastruktura kritike",
+      "Arsimi dhe trajnimi profesional",
+      "Punesimi dhe menaxhimi i punetoreve",
+      "Aksesi ne sherbime esenciale",
+      "Zbatimi i ligjit",
+      "Migrimi, azili dhe kontrolli kufitar",
+      "Drejtesia dhe proceset demokratike"
+    ],
+    "action": "PERPUTHSHMERI E PLOTE",
+    "penalty": "Deri 15M EUR ose 3% e xhiros"
+  },
+  {
+    "level": 3,
+    "name": "RREZIK I KUFIZUAR",
+    "name_en": "Limited Risk",
+    "color": "#FFA500",
+    "description": "Sisteme me detyrime transparence",
+    "examples": [
+      "Chatbots",
+      "Gjenerimi i imazheve AI",
+      "Sisteme te rekomandimit",
+      "Deepfake (duhet etiketohen)"
+    ],
+    "action": "DETYRIME TRANSPARENCE",
+    "penalty": "Deri 7.5M EUR ose 1.5% e xhiros"
+  },
+  {
+    "level": 4,
+    "name": "RREZIK MINIMAL",
+    "name_en": "Minimal Risk",
+    "color": "#008000",
+    "description": "Sisteme pa detyrime specifike",
+    "examples": [
+      "Filtrat e spam",
+      "Lojrat video",
+      "Sistemet e inventarit"
+    ],
+    "action": "VULLNETARE",
+    "penalty": "Asnje (por rekomandohet Code of Conduct)"
+  }
+]

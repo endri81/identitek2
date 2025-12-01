@@ -1,0 +1,200 @@
+{
+  "FYTYRA": {
+    "name": "Anomalite e Fytyrës",
+    "description": "Probleme qe shfaqen ne zonen e fytyrës",
+    "indicators": [
+      {
+        "id": "FYT-01",
+        "name": "Simetria e Tepruar",
+        "description": "Fytyrat e gjeneruara nga AI shpesh jane shume simetrike",
+        "detection": "Krahasoni gjysmen e majte me te djathten - asimetria e lehte eshte normale",
+        "difficulty": "E mesme",
+        "reliability": "MEDIUM"
+      },
+      {
+        "id": "FYT-02",
+        "name": "Syte Jokonsistente",
+        "description": "Reflektimet ne sy nuk perputhen ose mungojne",
+        "detection": "Zmadhoni syte - reflektimet duhet te jene identike ne te dy syte",
+        "difficulty": "E lehte",
+        "reliability": "HIGH"
+      },
+      {
+        "id": "FYT-03",
+        "name": "Veshet Asimetrike",
+        "description": "Format ose detajet e vesheve ndryshojne",
+        "detection": "Krahasoni formen, madhesine dhe detajet e te dy vesheve",
+        "difficulty": "E mesme",
+        "reliability": "MEDIUM"
+      },
+      {
+        "id": "FYT-04",
+        "name": "Floket Jo-natyrore",
+        "description": "Floket duken si te pikseluara ose te shkrira me sfondin",
+        "detection": "Shikoni skajet e flokeve - duhet te jene te qarta dhe individuale",
+        "difficulty": "E lehte",
+        "reliability": "HIGH"
+      },
+      {
+        "id": "FYT-05",
+        "name": "Lekura Shume e Llemuar",
+        "description": "Mungesa e poreve, rrudhave te vogla, tekstures",
+        "detection": "Zmadhoni lekuren - duhet te shihen poret dhe tekstura",
+        "difficulty": "E mesme",
+        "reliability": "MEDIUM"
+      },
+      {
+        "id": "FYT-06",
+        "name": "Dhembet Anomale",
+        "description": "Numri ose forma e dhembeve eshte e gabuar",
+        "detection": "Nese goja eshte e hapur, kontrolloni dhembet per konsistence",
+        "difficulty": "E lehte",
+        "reliability": "HIGH"
+      }
+    ]
+  },
+  "SKAJE": {
+    "name": "Problemet e Skajeve",
+    "description": "Anomalite ne kufijet midis elementeve",
+    "indicators": [
+      {
+        "id": "SKA-01",
+        "name": "Halo Efekti",
+        "description": "Brez i çuditshëm rreth fytyrës ose objekteve",
+        "detection": "Shikoni kufirin mes fytyres dhe sfondit per brez te ndritshme/te erret",
+        "difficulty": "E lehte",
+        "reliability": "HIGH"
+      },
+      {
+        "id": "SKA-02",
+        "name": "Blur i Perkohshem",
+        "description": "Zona te turbullta ne skaje specifike",
+        "detection": "Krahasoni mprehtesine e skajeve te ndryshme ne te njejten foto",
+        "difficulty": "E mesme",
+        "reliability": "MEDIUM"
+      },
+      {
+        "id": "SKA-03",
+        "name": "Artefakte Prerje",
+        "description": "Skaje te ashpra ose te parregullta",
+        "detection": "Kontrolloni kufijte e fytyres per pixele te parregullta",
+        "difficulty": "E mesme",
+        "reliability": "MEDIUM"
+      },
+      {
+        "id": "SKA-04",
+        "name": "Tranzicion Ngjyre",
+        "description": "Ndryshim i papritur i ngjyres ne skaje",
+        "detection": "Veshtroni gradientet e ngjyres ne kufij",
+        "difficulty": "E veshtire",
+        "reliability": "LOW"
+      }
+    ]
+  },
+  "NDRICIM": {
+    "name": "Jokonsistenca e Ndriçimit",
+    "description": "Problemet me dritten dhe hijet",
+    "indicators": [
+      {
+        "id": "NDR-01",
+        "name": "Drejtimi i Hijes",
+        "description": "Hijet ne fytyres nuk perputhen me hijet ne sfond",
+        "detection": "Identifikoni burimin e drites dhe kontrolloni konsistencen",
+        "difficulty": "E mesme",
+        "reliability": "HIGH"
+      },
+      {
+        "id": "NDR-02",
+        "name": "Reflektime Mungojne",
+        "description": "Mungojne reflektimet qe duhet te ishin prezente",
+        "detection": "Kontrolloni per reflektime ne syze, bizhuteri, siperfaqe te shkelqyera",
+        "difficulty": "E mesme",
+        "reliability": "MEDIUM"
+      },
+      {
+        "id": "NDR-03",
+        "name": "Intensiteti i Gabuar",
+        "description": "Ndricimi i fytyres nuk perputhet me ambientin",
+        "detection": "Krahasoni ndricimin e fytyres me objektet perreth",
+        "difficulty": "E veshtire",
+        "reliability": "MEDIUM"
+      }
+    ]
+  },
+  "METADATA": {
+    "name": "Analiza e Metadata",
+    "description": "Informacioni teknik i skedarit",
+    "indicators": [
+      {
+        "id": "MET-01",
+        "name": "EXIF Mungon/Modifikuar",
+        "description": "Te dhenat EXIF jane fshire ose modifikuar",
+        "detection": "Perdorni mjet per te lexuar EXIF - mungesa eshte dyshimte",
+        "difficulty": "E lehte",
+        "reliability": "MEDIUM"
+      },
+      {
+        "id": "MET-02",
+        "name": "Software i Dyshimte",
+        "description": "EXIF tregon software editimi (Photoshop, GIMP, AI tools)",
+        "detection": "Kontrolloni fushen 'Software' ne EXIF",
+        "difficulty": "E lehte",
+        "reliability": "HIGH"
+      },
+      {
+        "id": "MET-03",
+        "name": "Data Jokonsistente",
+        "description": "Data e krijimit nuk ka kuptim",
+        "detection": "Krahasoni daten e EXIF me daten e pretenduar",
+        "difficulty": "E lehte",
+        "reliability": "MEDIUM"
+      },
+      {
+        "id": "MET-04",
+        "name": "Rezolucion i Cuditshëm",
+        "description": "Rezolucioni nuk perputhet me pajisjen e pretenduar",
+        "detection": "Kontrolloni nese rezolucioni eshte tipik per kameren e pretenduar",
+        "difficulty": "E mesme",
+        "reliability": "LOW"
+      }
+    ]
+  },
+  "TEKNIKA": {
+    "name": "Artefakte Teknike",
+    "description": "Probleme qe dalin nga procesi i gjenerimit",
+    "indicators": [
+      {
+        "id": "TEK-01",
+        "name": "Kompresim i Dyfishte",
+        "description": "Artefakte nga rikompresimi JPEG",
+        "detection": "Kerkoni per 'ghosting' ose blloqe 8x8 pixel",
+        "difficulty": "E veshtire",
+        "reliability": "MEDIUM"
+      },
+      {
+        "id": "TEK-02",
+        "name": "Niveli i Zhurmes",
+        "description": "Zhurma dixhitale nuk eshte uniforme",
+        "detection": "Krahasoni zhurmen ne zona te ndryshme te fotos",
+        "difficulty": "E veshtire",
+        "reliability": "MEDIUM"
+      },
+      {
+        "id": "TEK-03",
+        "name": "Rezolucion Jokonsistent",
+        "description": "Disa zona jane me te mprehta se te tjerat",
+        "detection": "Kontrolloni mprehtesine ne pjese te ndryshme",
+        "difficulty": "E mesme",
+        "reliability": "MEDIUM"
+      },
+      {
+        "id": "TEK-04",
+        "name": "Ngjyra te Gabuara",
+        "description": "Toni i lekures ose ngjyrat nuk jane natyrore",
+        "detection": "Vlerësoni nese ngjyrat duken natyrore dhe konsistente",
+        "difficulty": "E mesme",
+        "reliability": "LOW"
+      }
+    ]
+  }
+}

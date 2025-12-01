@@ -1,0 +1,15 @@
+id,module,module_name,task,input,output
+VAL-01,VALIDIM,Moduli i Validimit,Validimi i MRZ,Linjat MRZ te pasaportes,VALID/INVALID + lista e gabimeve
+VAL-02,VALIDIM,Moduli i Validimit,Validimi i NID Shqiptar,Numri i identitetit (10 shifra),VALID/INVALID + arsyeja
+VAL-03,VALIDIM,Moduli i Validimit,Validimi i Dates,Date ne cfaredo formati,Date ISO 8601 + statusi
+STD-01,STANDARDIZIM,Moduli i Standardizimit,Standardizimi i Emrave,Emra ne formate te ndryshme,Emra ne Title Case
+STD-02,STANDARDIZIM,Moduli i Standardizimit,Standardizimi i Telefonave,Numra telefoni ne formate te ndryshme,Format E.164 (+355XXXXXXXXX)
+STD-03,STANDARDIZIM,Moduli i Standardizimit,Standardizimi i Adresave,Adresa ne formate te ndryshme,Adrese e strukturuar
+EKS-01,EKSTRAKTIM,Moduli i Ekstraktimit,Ekstraktimi nga Certifikate Lindje,Tekst i certifikates se lindjes,JSON me te dhenat kryesore
+EKS-02,EKSTRAKTIM,Moduli i Ekstraktimit,Ekstraktimi nga Aplikim,Tekst i formularit te aplikimit,Te dhena te strukturuara
+KLA-01,KLASIFIKIM,Moduli i Klasifikimit,Klasifikimi i Dokumenteve,Pershkrim ose permbajtje dokumenti,Kategoria + besueshmeria
+KLA-02,KLASIFIKIM,Moduli i Klasifikimit,Klasifikimi i Kerkesave,Teksti i kerkeses se qytetarit,Lloji + prioriteti + departamenti
+KON-01,KONTROLL,Moduli i Kontrollit te Cilësisë,Kontrolli i Plotesise,Te dhenat e aplikimit,Lista e fushave qe mungojne
+KON-02,KONTROLL,Moduli i Kontrollit te Cilësisë,Zbulimi i Anomalive,Te dhena per kontroll,Lista e anomalive me seriozitetin
+RAP-01,RAPORTIM,Moduli i Raportimit,Raporti Ditor,Statistika ditore,Raport i formatuar
+RAP-02,RAPORTIM,Moduli i Raportimit,Permbledhja e Rastit,Historiku i aplikimit,Permbledhje koncize

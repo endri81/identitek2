@@ -1,0 +1,16 @@
+case_id,title,description,indicators_present,verdict,explanation,difficulty
+DEEP-01,Foto Pasaporte - Reflektim Sysh,Foto biometrike ku reflektimet ne te dy syte jane identike (drite dritareje ne te njejtin pozicion),FYT-02,POTENCIALISHT AI,Reflektimet identike ne te dy syte sugjerojne imazh te gjeneruar - ne realitet reflektimet ndryshojne pak,E lehte
+DEEP-02,Foto Pasaporte - Normale,"Foto standarde biometrike me ndricim te njëtrajtshëm, reflektime te ndryshme ne sy, teksture normale lekure",,NORMALE,Asnje tregues manipulimi - foto duket autentike,E lehte
+DEEP-03,Foto Pasaporte - Lekure Artificiale,"Fytyra duket shume e llemuar, pa pore te dukshme, pa teksture natyrore lekure",FYT-05,POTENCIALISHT AI,Mungesa e tekstures se lekures eshte karakteristike e imazheve AI,E mesme
+DEEP-04,Foto ID - Halo Efekt,Foto e kartes se identitetit ku rreth fytyrës shihet nje brez i lehte me ndryshem nga sfondi,SKA-01,MANIPULUAR,Halo efekti sugjeron qe fytyra eshte prerë dhe ngjitur ne nje sfond tjeter,E lehte
+DEEP-05,Foto Pasaporte - Veshe te Cuditshme,"Veshi i majte ka forme te ndryshme nga i djathti, njeri me i madh dhe me detaje me pak",FYT-03,POTENCIALISHT AI,Asimetria ekstreme e vesheve eshte tregues i gjenerimit AI,E mesme
+DEEP-06,Foto ID - EXIF Mungon,"Foto dixhitale pa asnje te dhene EXIF, madhesia 800x1000 pixel",MET-01,DYSHIMTE,Mungesa e EXIF sugjeron qe foto eshte perpunuar - kerkon hetim te metejshem,E lehte
+DEEP-07,Foto Pasaporte - Hijet Jokonsistente,"Hija ne anen e majte te fytyres, por sfondi tregon drite nga e majta",NDR-01,MANIPULUAR,Drejtimi jokonsistent i hijes tregon qe foto eshte kompozit,E mesme
+DEEP-08,Foto ID - Floket e Çuditshme,"Floket duken si te pikseluara, me skaje jo te qarta qe shkrihen ne sfond",FYT-04,POTENCIALISHT AI,Floket jo-natyrore jane tregues i forte i gjenerimit AI,E lehte
+DEEP-09,Foto Pasaporte - Dhembet,"Foto me goje pak te hapur ku shihen dhembe me forme te cuditshme, disa te bashkuar",FYT-06,POTENCIALISHT AI,AI ka veshtiresi me gjenerimin e dhembeve realiste,E mesme
+DEEP-10,Foto ID - Software Photoshop,"EXIF tregon: Software='Adobe Photoshop CC 2024', disa shtresa te bashkuara",MET-02,MANIPULUAR,Prania e softuerit te editimit ne EXIF konfirmon perpunim,E lehte
+DEEP-11,Foto Pasaporte - E Plote,"Foto me cilesi te larte, EXIF nga iPhone 15, reflektime natyrore, teksture normale",,NORMALE,Foto autentike me te gjitha elementet normale,E lehte
+DEEP-12,Foto ID - Zhurme Jokonsistente,"Fytyra ka pak zhurme dixhitale, ndersa sfondi ka shume zhurme",TEK-02,MANIPULUAR,Nivelet e ndryshme te zhurmes tregojne kompozit,E veshtire
+DEEP-13,Foto Pasaporte - Simetri e Tepruar,Fytyra eshte pothuajse perfekt simetrike - te dy anet identike,FYT-01,POTENCIALISHT AI,Simetria perfekte eshte e pamundur ne natyre,E mesme
+DEEP-14,Foto ID - Skaje te Ashpra,"Kufiri mes flokeve dhe sfondit ka pixele te parregullta, si prerje me gershere",SKA-03,MANIPULUAR,Artefaktet e prerjes tregojne editim manual,E mesme
+DEEP-15,Foto Pasaporte - Data e Cuditshme,"EXIF tregon date krijimi 2019, por dokumenti pretendon foto te 2024",MET-03,DYSHIMTE,Mosperputhja e dates kerkon hetim - mund te jete foto e vjeter e riperdorur,E lehte

@@ -1,0 +1,6 @@
+id,name,risk_level,compliance_status
+SYS-01,Sistemi i Verifikimit Biometrik te Pasaportave,RREZIK I LARTE,PJESERISHT PERPUTHSHEM
+SYS-02,Sistemi i Zbulimit te Dokumenteve False,RREZIK I LARTE,PERPUTHSHEM ME KUSHTE
+SYS-03,Chatbot per Aplikime Pasaportash,RREZIK I KUFIZUAR,PERPUTHSHEM
+SYS-04,Sistemi i Prioritizimit te Aplikimeve,RREZIK I LARTE,JO PERPUTHSHEM
+SYS-05,Sistemi i Kontrollit te Cilesise se Fotove,RREZIK I LARTE,PJESERISHT PERPUTHSHEM

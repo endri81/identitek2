@@ -1,0 +1,146 @@
+[
+  {
+    "pillar": 1,
+    "name": "STRATEGJIA DHE VIZIONI",
+    "name_en": "Strategy & Vision",
+    "icon": "🎯",
+    "description": "Percaktimi i qellimeve dhe drejtimit strategjik per perdorimin e AI",
+    "key_elements": [
+      "Vizioni per AI ne institucion",
+      "Objektivat strategjike 3-5 vjecare",
+      "Parimet udheheqese",
+      "Alignimi me misionin institucional"
+    ],
+    "deliverables": [
+      "Dokumenti i Vizionit per AI",
+      "Strategjia e AI 2025-2028",
+      "Deklarata e Parimeve te AI"
+    ],
+    "metrics": [
+      "% e stafit qe njeh vizionin",
+      "Alignimi me objektivat institucionale",
+      "Progresi ndaj milestone-ve strategjike"
+    ],
+    "workshop_link": "A01: AI si Motor Perputhshmerie"
+  },
+  {
+    "pillar": 2,
+    "name": "POLITIKAT DHE STANDARDET",
+    "name_en": "Policies & Standards",
+    "icon": "📋",
+    "description": "Korniza e politikave, procedurave dhe standardeve teknike",
+    "key_elements": [
+      "Politika e Perdorimit te AI",
+      "Standardet teknike (ICAO 9303, ISO)",
+      "Procedurat operative",
+      "Udhezimet etike"
+    ],
+    "deliverables": [
+      "Politika e Perdorimit te Pranueshëm",
+      "Standardet e te Dhenave",
+      "Manuali i Procedurave"
+    ],
+    "metrics": [
+      "% e sistemeve me politike te dokumentuar",
+      "Perputhshmeria me standardet",
+      "Numri i incidenteve nga mosperputhja"
+    ],
+    "workshop_link": "A02-A03: Validimi ICAO, Zbulimi Duplikateve"
+  },
+  {
+    "pillar": 3,
+    "name": "MENAXHIMI I RREZIKUT",
+    "name_en": "Risk Management",
+    "icon": "⚠️",
+    "description": "Identifikimi, vleresimi dhe zbutja e rreziqeve te AI",
+    "key_elements": [
+      "Regjistri i rreziqeve te AI",
+      "Vleresimi i impaktit",
+      "Planet e zbutjes",
+      "Monitorimi i vazhdueshem"
+    ],
+    "deliverables": [
+      "Regjistri i Rreziqeve te AI",
+      "Matrica Rrezik-Impakt",
+      "Plani i Zbutjes se Rreziqeve"
+    ],
+    "metrics": [
+      "Numri i rreziqeve te identifikuara",
+      "% e rreziqeve te zbutura",
+      "Koha mesatare e pergjigjes"
+    ],
+    "workshop_link": "A04: Auditi i Bias, A10: Shkelja e te Dhenave"
+  },
+  {
+    "pillar": 4,
+    "name": "PERPUTHSHMERIA RREGULLATORE",
+    "name_en": "Regulatory Compliance",
+    "icon": "⚖️",
+    "description": "Sigurimi i perputhshmerise me ligjet dhe rregulloret",
+    "key_elements": [
+      "EU AI Act compliance",
+      "GDPR/Ligji MDHP",
+      "Standardet sektoriale",
+      "Auditimet periodike"
+    ],
+    "deliverables": [
+      "Matrica e Perputhshmerise",
+      "Kalendari i Auditeve",
+      "Raportet e Perputhshmerise"
+    ],
+    "metrics": [
+      "Niveli i perputhshmerise (%)",
+      "Numri i gjetjeve te auditit",
+      "Koha per mbylljen e gjetjeve"
+    ],
+    "workshop_link": "A11: Auditimi EU AI Act"
+  },
+  {
+    "pillar": 5,
+    "name": "OPERACIONET DHE MONITORIMI",
+    "name_en": "Operations & Monitoring",
+    "icon": "📊",
+    "description": "Menaxhimi i perditshëm dhe monitorimi i performances",
+    "key_elements": [
+      "Dashboardet e monitorimit",
+      "KPI-te e performances",
+      "Incidentet dhe eskalimet",
+      "Mirembajtja e sistemeve"
+    ],
+    "deliverables": [
+      "Dashboard i Performances AI",
+      "SLA per sistemet AI",
+      "Procedurat e Incidenteve"
+    ],
+    "metrics": [
+      "Uptime i sistemeve",
+      "Saktesia e vendimeve",
+      "Koha e pergjigjes"
+    ],
+    "workshop_link": "A05: Cilesia e Fotove, A09: Zbulimi Deepfake"
+  },
+  {
+    "pillar": 6,
+    "name": "NJEREZIT DHE KULTURA",
+    "name_en": "People & Culture",
+    "icon": "👥",
+    "description": "Zhvillimi i aftesive dhe kultures se AI",
+    "key_elements": [
+      "Trajnimi i vazhdueshem",
+      "Rolet dhe pergjegjesite",
+      "Ndergjegjësimi etik",
+      "Menaxhimi i ndryshimit"
+    ],
+    "deliverables": [
+      "Programi i Trajnimit AI",
+      "Pershkrimet e Roleve",
+      "Plani i Komunikimit"
+    ],
+    "metrics": [
+      "% e stafit te trajnuar",
+      "Kenaqesia me trajnimin",
+      "Kompetenca e demonstruar"
+    ],
+    "workshop_link": "A06: Ndertimi i Asistentit AI"
+  }
+]

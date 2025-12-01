@@ -1,0 +1,174 @@
+{
+  "ZONA_VIZ": {
+    "name": "Zona e Inspektimit Vizual (VIZ)",
+    "location": "Faqja e te dhenave - pjesa e siperme",
+    "elements": [
+      {
+        "id": "VIZ-01",
+        "element": "Fotografia e Mbajtesit",
+        "description": "Foto biometrike 35x45mm",
+        "verification": "Cilesia, pozicioni, sfondi sipas ICAO 9303",
+        "fraud_indicators": "Ndryshime ne teksture, skaje te parregullta, ngjyra jokonsistente"
+      },
+      {
+        "id": "VIZ-02",
+        "element": "Emri i Plote",
+        "description": "Mbiemri dhe emrat",
+        "verification": "Perputhja me MRZ, formati i sakte",
+        "fraud_indicators": "Shkronja te ndryshuara, hapesira te gabuara"
+      },
+      {
+        "id": "VIZ-03",
+        "element": "Kombesia",
+        "description": "Shteti leshues (SHQIPERI/ALBANIA)",
+        "verification": "Kodi ISO 3166-1 ne MRZ",
+        "fraud_indicators": "Gabime drejtshkrimi, font i ndryshem"
+      },
+      {
+        "id": "VIZ-04",
+        "element": "Data e Lindjes",
+        "description": "Formati DD.MM.YYYY",
+        "verification": "Perputhja me MRZ (YYMMDD)",
+        "fraud_indicators": "Mosperputhje me MRZ, moshe joreale"
+      },
+      {
+        "id": "VIZ-05",
+        "element": "Gjinia",
+        "description": "M/F ose MASHKULL/FEMER",
+        "verification": "Perputhja me MRZ",
+        "fraud_indicators": "Mosperputhje me foto ose MRZ"
+      },
+      {
+        "id": "VIZ-06",
+        "element": "Vendi i Lindjes",
+        "description": "Qyteti/Shteti i lindjes",
+        "verification": "Format konsistent",
+        "fraud_indicators": "Vendndodhje e pamundur"
+      },
+      {
+        "id": "VIZ-07",
+        "element": "Data e Leshimit",
+        "description": "Kur u lëshua dokumenti",
+        "verification": "Para dates se skadences, pas lindjes",
+        "fraud_indicators": "Data ne te ardhmen, para lindjes"
+      },
+      {
+        "id": "VIZ-08",
+        "element": "Data e Skadences",
+        "description": "Kur skadon dokumenti",
+        "verification": "Zakonisht 10 vjet pas leshimit",
+        "fraud_indicators": "Periudhe jo-standarde, e skaduar"
+      },
+      {
+        "id": "VIZ-09",
+        "element": "Numri i Dokumentit",
+        "description": "Identifikuesi unik",
+        "verification": "Perputhja me MRZ, formati i sakte",
+        "fraud_indicators": "Format i gabuar, karaktere te ndryshuara"
+      },
+      {
+        "id": "VIZ-10",
+        "element": "Autoriteti Leshues",
+        "description": "Institucioni qe e leshoi",
+        "verification": "Autoriteti i njohur",
+        "fraud_indicators": "Autoritet i panjohur, gabime drejtshkrimi"
+      }
+    ]
+  },
+  "ZONA_MRZ": {
+    "name": "Zona e Lexueshme nga Makina (MRZ)",
+    "location": "Faqja e te dhenave - pjesa e poshtme",
+    "elements": [
+      {
+        "id": "MRZ-01",
+        "element": "Linja 1 - Tipi dhe Emri",
+        "description": "P<ALB<MBIEMRI<<EMRI<<<<<<<<<<<<<<<<<<<<<",
+        "verification": "44 karaktere, P=Pasaporte, ALB=Shqiperi",
+        "fraud_indicators": "Gjatesi e gabuar, kod vendi i pavlefshem"
+      },
+      {
+        "id": "MRZ-02",
+        "element": "Linja 2 - Te Dhenat",
+        "description": "Nr.dok+shifra+komb+datelindje+shifra+gjini+skadence+shifra+personal+shifra+kompozite",
+        "verification": "44 karaktere, shifrat kontrolluese",
+        "fraud_indicators": "Shifra kontrolluese te gabuara"
+      },
+      {
+        "id": "MRZ-03",
+        "element": "Shifrat Kontrolluese",
+        "description": "5 shifra ne pozicione specifike",
+        "verification": "Algoritmi mod 10 me peshat 7,3,1",
+        "fraud_indicators": "Vlera te pasakta matematikisht"
+      },
+      {
+        "id": "MRZ-04",
+        "element": "Karakteret e Lejuara",
+        "description": "A-Z, 0-9, < (filler)",
+        "verification": "Vetem karaktere te lejuara",
+        "fraud_indicators": "Karaktere speciale, shkronja te vogla"
+      }
+    ]
+  },
+  "ZONA_SIGURI": {
+    "name": "Elementet e Sigurise",
+    "location": "Te shperndara ne dokument",
+    "elements": [
+      {
+        "id": "SEC-01",
+        "element": "Hologrami",
+        "description": "Imazh 3D qe ndryshon me kendveshtrimin",
+        "verification": "Levizja e imazhit, ngjyrat e drites",
+        "fraud_indicators": "Statik, pa efekt 3D, i ngjitur"
+      },
+      {
+        "id": "SEC-02",
+        "element": "UV Fluoreshente",
+        "description": "Elemente te dukshme vetem nen drite UV",
+        "verification": "Kontroll me llamba UV 365nm",
+        "fraud_indicators": "Mungese ose pozicion i gabuar"
+      },
+      {
+        "id": "SEC-03",
+        "element": "Mikroprinting",
+        "description": "Tekst shume i vogel i palexueshem me sy",
+        "verification": "Kontroll me xham zmadhues",
+        "fraud_indicators": "I paqarte, i turbullt, i nderprere"
+      },
+      {
+        "id": "SEC-04",
+        "element": "Guilloché",
+        "description": "Vija te holla te nderthurura",
+        "verification": "Vazhdimesi, simetri",
+        "fraud_indicators": "Vija te thyera, asimetrike"
+      },
+      {
+        "id": "SEC-05",
+        "element": "OVI (Optically Variable Ink)",
+        "description": "Boje qe ndryshon ngjyre me kendin",
+        "verification": "Ndryshimi i ngjyres nen drite",
+        "fraud_indicators": "Ngjyre statike, pa ndryshim"
+      },
+      {
+        "id": "SEC-06",
+        "element": "Letra Speciale",
+        "description": "Leter me fibra te dukshme UV",
+        "verification": "Tekstura, fibrat nen UV",
+        "fraud_indicators": "Leter e zakonshme, pa fibra"
+      },
+      {
+        "id": "SEC-07",
+        "element": "Laser Perforation",
+        "description": "Vrima te vogla qe formojne figure",
+        "verification": "I dukshem kunder drites",
+        "fraud_indicators": "Vrima mekanike, jo te rregullta"
+      },
+      {
+        "id": "SEC-08",
+        "element": "Chip RFID (eMRTD)",
+        "description": "Cip elektronik me te dhena biometrike",
+        "verification": "Lexim me pajisje NFC/RFID",
+        "fraud_indicators": "Chip i demtuar, te dhena jokonsistente"
+      }
+    ]
+  }
+}

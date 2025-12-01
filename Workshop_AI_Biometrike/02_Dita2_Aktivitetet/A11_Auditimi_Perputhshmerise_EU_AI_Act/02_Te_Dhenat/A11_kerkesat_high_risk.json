@@ -1,0 +1,254 @@
+[
+  {
+    "category": "MENAXHIMI I RREZIKUT",
+    "article": "Neni 9",
+    "requirements": [
+      {
+        "id": "RR-01",
+        "name": "Sistemi i Menaxhimit te Rrezikut",
+        "description": "Vendosni dhe mbani sistem te vazhdueshem per identifikimin dhe zbutjen e rreziqeve",
+        "evidence": [
+          "Dokumenti i politikes",
+          "Regjistri i rreziqeve",
+          "Plani i zbutjes"
+        ],
+        "frequency": "I vazhdueshem"
+      },
+      {
+        "id": "RR-02",
+        "name": "Vleresimi i Rrezikut te Mbetur",
+        "description": "Identifikoni dhe dokumentoni rreziqet e mbetura pas zbutjes",
+        "evidence": [
+          "Raporti i vleresimit",
+          "Masat shoqeruese"
+        ],
+        "frequency": "Per cdo perditesim"
+      },
+      {
+        "id": "RR-03",
+        "name": "Testimi i Rrezikut",
+        "description": "Testoni sistemin per te identifikuar rreziqe te reja",
+        "evidence": [
+          "Rezultatet e testeve",
+          "Protokollet e testimit"
+        ],
+        "frequency": "Para vendosjes dhe periodikisht"
+      }
+    ]
+  },
+  {
+    "category": "TE DHENAT DHE QEVERISJA",
+    "article": "Neni 10",
+    "requirements": [
+      {
+        "id": "TD-01",
+        "name": "Praktikat e Qeverisjes se te Dhenave",
+        "description": "Implementoni praktika te pershtatshme per grumbullimin dhe perpunimin",
+        "evidence": [
+          "Politika e qeverisjes",
+          "Procedurat e perpunimit"
+        ],
+        "frequency": "I vazhdueshem"
+      },
+      {
+        "id": "TD-02",
+        "name": "Cilesia e te Dhenave te Trajnimit",
+        "description": "Siguroni qe te dhenat jane relevante, perfaqesuese dhe pa gabime",
+        "evidence": [
+          "Raportet e cilesise",
+          "Metodologjia e validimit"
+        ],
+        "frequency": "Para trajnimit"
+      },
+      {
+        "id": "TD-03",
+        "name": "Zbulimi i Bias",
+        "description": "Ekzaminoni per bias te mundshme ne te dhena",
+        "evidence": [
+          "Analiza e bias",
+          "Masat korrigjuese"
+        ],
+        "frequency": "Para dhe pas vendosjes"
+      }
+    ]
+  },
+  {
+    "category": "DOKUMENTIMI TEKNIK",
+    "article": "Neni 11",
+    "requirements": [
+      {
+        "id": "DT-01",
+        "name": "Dokumentimi Teknik i Plote",
+        "description": "Hartoni dokumentacion para vendosjes ne treg",
+        "evidence": [
+          "Dokumenti teknik sipas Aneksit IV"
+        ],
+        "frequency": "Para vendosjes, perditesoni"
+      },
+      {
+        "id": "DT-02",
+        "name": "Pershkrimi i Sistemit",
+        "description": "Dokumentoni qellimin, funksionin, arkitekturen",
+        "evidence": [
+          "Specifikimi teknik",
+          "Diagramet e arkitektures"
+        ],
+        "frequency": "Initial + perditesime"
+      },
+      {
+        "id": "DT-03",
+        "name": "Informacioni per Monitorimin",
+        "description": "Dokumentoni si do te monitorohet sistemi",
+        "evidence": [
+          "Plani i monitorimit",
+          "Metrikat"
+        ],
+        "frequency": "Para vendosjes"
+      }
+    ]
+  },
+  {
+    "category": "MBAJTJA E REGJISTRAVE",
+    "article": "Neni 12",
+    "requirements": [
+      {
+        "id": "MR-01",
+        "name": "Logging Automatik",
+        "description": "Sistemi duhet te regjistroje automatikisht ngjarjet",
+        "evidence": [
+          "Konfigurimet e logging",
+          "Shembuj log-esh"
+        ],
+        "frequency": "Gjithmone aktiv"
+      },
+      {
+        "id": "MR-02",
+        "name": "Gjurmueshm dhe Auditueshmeria",
+        "description": "Log-et duhet te mundesojne gjurmimin e vendimeve",
+        "evidence": [
+          "Raportet e auditit",
+          "Analiza e log-eve"
+        ],
+        "frequency": "I vazhdueshem"
+      },
+      {
+        "id": "MR-03",
+        "name": "Ruajtja e Log-eve",
+        "description": "Ruani log-et per periudhen e duhur",
+        "evidence": [
+          "Politika e ruajtjes",
+          "Provat e arkivimit"
+        ],
+        "frequency": "Sipas periudhes ligjore"
+      }
+    ]
+  },
+  {
+    "category": "TRANSPARENCA",
+    "article": "Neni 13",
+    "requirements": [
+      {
+        "id": "TR-01",
+        "name": "Udhezimet per Perdoruesit",
+        "description": "Jepni udhezime te qarta per perdoruesit e sistemit",
+        "evidence": [
+          "Manuali i perdoruesit",
+          "Dokumentimi online"
+        ],
+        "frequency": "Me vendosjen"
+      },
+      {
+        "id": "TR-02",
+        "name": "Informacioni per Kufizimet",
+        "description": "Komunikoni qarte kufizimet dhe rreziqet",
+        "evidence": [
+          "Seksioni i kufizimeve",
+          "Paralajmerimet"
+        ],
+        "frequency": "Ne dokumentim"
+      },
+      {
+        "id": "TR-03",
+        "name": "Interpretueshmeria",
+        "description": "Mundesoni qe vendimet te jene te kuptueshme",
+        "evidence": [
+          "Shpjegimet e output-eve",
+          "Metoda XAI"
+        ],
+        "frequency": "Per cdo vendim kritik"
+      }
+    ]
+  },
+  {
+    "category": "MBIKQYRJA NJEREZORE",
+    "article": "Neni 14",
+    "requirements": [
+      {
+        "id": "MN-01",
+        "name": "Dizajni per Mbikqyrje",
+        "description": "Sistemi duhet te mundesoje mbikqyrjen efektive njerezore",
+        "evidence": [
+          "Nderfaqja e mbikqyrjes",
+          "Kontrollet manuale"
+        ],
+        "frequency": "Ne dizajn"
+      },
+      {
+        "id": "MN-02",
+        "name": "Nderhyrja Njerezore",
+        "description": "Mundesoni nderhyrjen ose ndalimin e sistemit",
+        "evidence": [
+          "Butoni STOP",
+          "Procedurat e nderhyrjes"
+        ],
+        "frequency": "Gjithmone e disponueshme"
+      },
+      {
+        "id": "MN-03",
+        "name": "Trajnimi i Operatoreve",
+        "description": "Trajnoni personelin per mbikqyrje efektive",
+        "evidence": [
+          "Programi i trajnimit",
+          "Certifikimet"
+        ],
+        "frequency": "Para perdorimit, rifreskoni"
+      }
+    ]
+  },
+  {
+    "category": "SAKTESIA DHE QENDRUESHMERIA",
+    "article": "Neni 15",
+    "requirements": [
+      {
+        "id": "SQ-01",
+        "name": "Niveli i Saktesise",
+        "description": "Arrini dhe dokumentoni nivelin e duhur te saktesise",
+        "evidence": [
+          "Metrikat e performances",
+          "Benchmarks"
+        ],
+        "frequency": "Para vendosjes, monitoroni"
+      },
+      {
+        "id": "SQ-02",
+        "name": "Qendrueshmeria",
+        "description": "Sistemi duhet te jete rezistent ndaj gabimeve dhe sulmeve",
+        "evidence": [
+          "Testet e qendrueshmërise",
+          "Plani i backup"
+        ],
+        "frequency": "Periodikisht"
+      },
+      {
+        "id": "SQ-03",
+        "name": "Siguria Kibernetike",
+        "description": "Mbroni sistemin nga sulmet kibernetike",
+        "evidence": [
+          "Vleresimi i sigurise",
+          "Penetration tests"
+        ],
+        "frequency": "Para vendosjes, periodikisht"
+      }
+    ]
+  }
+]

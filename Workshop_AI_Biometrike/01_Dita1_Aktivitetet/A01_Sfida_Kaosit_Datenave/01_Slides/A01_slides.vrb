@@ -1,0 +1,22 @@
+\frametitle{Demo: Hartimi i Prompt-it Tuaj të Standardizimit}
+
+\begin{tcolorbox}[colback=gray!10,colframe=gray,title=\faIcon{robot} Shembull Prompt-i për Claude/Gemini]
+\small
+\begin{verbatim}
+Kam një skedar CSV me rekorde qytetarësh shqiptarë.
+Të dhënat kanë formatim të pakonsisueshëm.
+
+Ju lutem standardizoni sa më poshtë:
+
+1. Konvertoni TË GJITHA datat në formatin ISO 8601 (VVVV-MM-DD)
+2. Konvertoni TË GJITHA emrat në Title Case (Agron Hoxha)
+3. Konvertoni gjininë në shkronjë të vetme (M ose F)
+4. Sinjalizoni çdo rekord me:
+   - Datëlindje në të ardhmen (e pamundur)
+   - Moshë mbi 120 vjet (e pabesueshme)
+   - Fusha të detyrueshme që mungojnë
+
+Rezultati si CSV i pastër me kolonë shënime_validimi.
+\end{verbatim}
+\end{tcolorbox}
+

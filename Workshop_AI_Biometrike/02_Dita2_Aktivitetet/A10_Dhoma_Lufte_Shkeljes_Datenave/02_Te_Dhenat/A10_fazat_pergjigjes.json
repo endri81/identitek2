@@ -1,0 +1,87 @@
+[
+  {
+    "phase": 1,
+    "name": "IDENTIFIKIMI",
+    "duration": "0-2 orë",
+    "objectives": [
+      "Konfirmoni që ka ndodhur shkelje",
+      "Vlerësoni shkallën fillestare",
+      "Identifikoni sistemet e prekura",
+      "Aktivizoni ekipin e reagimit"
+    ],
+    "key_questions": [
+      "Çfarë sistemi u prek?",
+      "Kur filloi incidenti?",
+      "Sa rekorde janë potencialisht të ekspozuara?",
+      "A është aktiv ende sulmi?"
+    ]
+  },
+  {
+    "phase": 2,
+    "name": "IZOLIMI",
+    "duration": "2-6 orë",
+    "objectives": [
+      "Ndaloni përhapjen e sulmit",
+      "Izoloni sistemet e prekura",
+      "Ruani provat dixhitale",
+      "Aktivizoni sistemet backup"
+    ],
+    "key_questions": [
+      "A janë izoluar sistemet e prekura?",
+      "A kemi backup të sigurt?",
+      "A janë ruajtur log-et?",
+      "A mund të vazhdojnë operacionet kritike?"
+    ]
+  },
+  {
+    "phase": 3,
+    "name": "ELIMINIMI",
+    "duration": "6-24 orë",
+    "objectives": [
+      "Hiqni malware/aksesin e paautorizuar",
+      "Mbyllni vulnerabilitetin",
+      "Rivendosni kredencialet",
+      "Verifikoni pastrimin"
+    ],
+    "key_questions": [
+      "A është hequr kërcënimi?",
+      "A është mbyllur vektori i sulmit?",
+      "A janë ndryshuar të gjitha kredencialet?",
+      "A jemi të sigurt për riaktivizim?"
+    ]
+  },
+  {
+    "phase": 4,
+    "name": "RIKUPERIMI",
+    "duration": "24-72 orë",
+    "objectives": [
+      "Rivendosni sistemet nga backup i sigurt",
+      "Testoni funksionalitetin",
+      "Monitoroni për ri-infektim",
+      "Riaktivizoni shërbimet"
+    ],
+    "key_questions": [
+      "A janë rivendosur sistemet?",
+      "A funksionon gjithçka normalisht?",
+      "A kemi monitorim të shtuar?",
+      "A janë njoftuar palët e interesuara?"
+    ]
+  },
+  {
+    "phase": 5,
+    "name": "MËSIMET",
+    "duration": "1-4 javë pas",
+    "objectives": [
+      "Dokumentoni incidentin plotësisht",
+      "Analizoni shkaqet rrënjësore",
+      "Identifikoni përmirësimet",
+      "Përditësoni procedurat"
+    ],
+    "key_questions": [
+      "Si hyri sulmuesi?",
+      "Çfarë dështoi në mbrojtje?",
+      "Si mund ta parandalojmë në të ardhmen?",
+      "A nevojiten trajnime të reja?"
+    ]
+  }
+]

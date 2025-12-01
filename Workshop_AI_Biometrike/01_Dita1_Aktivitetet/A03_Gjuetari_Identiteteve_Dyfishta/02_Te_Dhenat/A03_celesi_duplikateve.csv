@@ -1,0 +1,16 @@
+original_id,duplicate_id,variation_type,original_name,duplicate_name,confidence
+REC-0062,REC-0186,NAME_CASE,Aferdita Kurti,AFERDITA kurti,HIGH
+REC-0137,REC-0187,NAME_TYPO,Aferdita Kurti,Aferdtia Kurti,MEDIUM
+REC-0057,REC-0188,NAME_VARIANT,Dorina Halili,Dorina Halili,LOW
+REC-0044,REC-0189,DATE_FORMAT,Bashkim Kurti,Bashkim Kurti,HIGH
+REC-0104,REC-0190,ADDRESS_ABBREV,Qendresa Maloku,Qendresa Maloku,MEDIUM
+REC-0118,REC-0191,ADDRESS_PARTIAL,Dashamir Gashi,Dashamir Gashi,LOW
+REC-0114,REC-0192,PHONE_FORMAT,Nora Ahmeti,Nora Ahmeti,HIGH
+REC-0177,REC-0193,EMAIL_VARIANT,Gerta Bektashi,Gerta Bektashi,MEDIUM
+REC-0125,REC-0194,MISSING_FIELD,Flutura Kelmendi,Flutura Kelmendi,LOW
+REC-0015,REC-0195,CITY_VARIANT,Gentiana Leka,Gentiana Leka,LOW
+REC-0180,REC-0196,SURNAME_MARRIED,Gerta Zeka,Gerta Gashi,LOW
+REC-0018,REC-0197,FULL_NAME_SWAP,Dorina Bajrami,Bajrami Dorina,LOW
+REC-0167,REC-0198,ID_TYPO,Gentiana Krasniqi,Gentiana Krasniqi,LOW
+REC-0061,REC-0199,MULTI_ERROR,Vjollca Halili,VJOLLCA Halili,LOW
+REC-0128,REC-0200,NEAR_MATCH,Jonida Rexhepi,Jonida Rexhepi,LOW
